@@ -1,0 +1,48 @@
+/* COMMON CSS STARTS */
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p,ul.ol,span{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none
+}
+body{
+    font-family: "arial"
+}
+a{
+    text-decoration: none;
+}
+/* COMMON CSS ENDS */
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategrey;
+}
+.counter{
+    max-width: 400px;
+}
+.counter *{
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.counter input{
+    border-color: blanchedalmond;
+}
+.counter .btn-1{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: cornflowerblue;
+    border-color: beige;
+}
+.counter .btn-2{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: cornflowerblue;
+    border-color: blanchedalmond;
+}
